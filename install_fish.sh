@@ -4,7 +4,7 @@ set -x
 set -e
 
 sudo apt-get install fish git
-curl -L https://get.oh-my.fish > install
+curl -L https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > install
 fish ./install --noninteractive
 rm install
 fish -c "
